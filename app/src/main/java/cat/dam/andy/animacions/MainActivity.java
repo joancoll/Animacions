@@ -21,10 +21,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         animacioOu();
+        animacioOu2();
         animacioMosquit();
         animacioPilota1();
         animacioPilota2();
         animacioPilota3();
+        animacioPilota4();
 
     }
 
@@ -34,6 +36,16 @@ public class MainActivity extends AppCompatActivity {
             // Canviem la imatge assignant-li l'altre recurs
             ImageView visorImatge = (ImageView) findViewById(R.id.iv_ou);
             visorImatge.setImageResource(R.drawable.gall);
+        });
+    }
+
+    private void animacioOu2() {
+        ImageView iv_ou =(ImageView) findViewById(R.id.iv_ou2);
+        iv_ou.setOnClickListener(v -> {
+            // Canviem la imatge assignant-li l'altre recurs
+            ImageView visorImatge = (ImageView) findViewById(R.id.iv_ou);
+            Animation animacioPilota = AnimationUtils.loadAnimation(MainActivity.this, R.anim.ouquecau);
+            iv_ou.startAnimation(animacioPilota);
         });
     }
 
@@ -60,6 +72,15 @@ public class MainActivity extends AppCompatActivity {
         iv_pilota.setOnClickListener(v -> {
             // Canviem la imatge assignant-li l'altre recurs
             Animation animacioPilota = AnimationUtils.loadAnimation(MainActivity.this, R.anim.botar);
+            iv_pilota.startAnimation(animacioPilota);
+        });
+    }
+
+    private void animacioPilota4() {
+        final ImageView iv_pilota = (ImageView)findViewById(R.id.iv_pilota4);
+        iv_pilota.setOnClickListener(v -> {
+            // Canviem la imatge assignant-li l'altre recurs
+            Animation animacioPilota = AnimationUtils.loadAnimation(MainActivity.this, R.anim.venir);
             iv_pilota.startAnimation(animacioPilota);
         });
     }

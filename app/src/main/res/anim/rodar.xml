@@ -8,12 +8,12 @@
         android:toDegrees="360"
         android:pivotX="50%"
         android:pivotY="50%"
-        android:duration="4000"/>
+        android:duration="2000"/>
     <translate
         android:interpolator="@android:anim/linear_interpolator"
         android:repeatCount="infinite"
         android:repeatMode="reverse"
         android:fromXDelta="0%p"
         android:toXDelta="50%p"
-        android:duration="4000"/>
+        android:duration="2000"/>
 </set>
