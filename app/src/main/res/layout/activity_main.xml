@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/iv_pilota1"
+        android:id="@+id/iv_ball1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/pilota"
@@ -16,10 +16,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027" />
+        app:layout_constraintVertical_bias="0.027"
+        android:contentDescription="@string/ball" />
 
     <ImageView
-        android:id="@+id/iv_pilota2"
+        android:id="@+id/iv_ball2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/pilota"
@@ -28,10 +29,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386" />
+        app:layout_constraintVertical_bias="0.386"
+        android:contentDescription="@string/ball"/>
 
     <ImageView
-        android:id="@+id/iv_pilota3"
+        android:id="@+id/iv_ball3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/pilota"
@@ -40,10 +42,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.727" />
+        app:layout_constraintVertical_bias="0.727"
+        android:contentDescription="@string/ball" />
 
     <ImageView
-        android:id="@+id/iv_pilota4"
+        android:id="@+id/iv_ball4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/pilota"
@@ -52,10 +55,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.727" />
+        app:layout_constraintVertical_bias="0.727"
+        android:contentDescription="@string/ball" />
 
     <ImageView
-        android:id="@+id/iv_ou"
+        android:id="@+id/iv_egg1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ou"
@@ -64,10 +68,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.028"
+        android:contentDescription="@string/egg"/>
 
     <ImageView
-        android:id="@+id/iv_ou2"
+        android:id="@+id/iv_egg2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ou"
@@ -76,7 +81,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.028"
+        android:contentDescription="@string/egg" />
 
     <ImageView
         android:id="@+id/iv_mosquit"
@@ -87,7 +93,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
+        app:layout_constraintVertical_bias="0.939"
+        android:contentDescription="@string/mosquito" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
